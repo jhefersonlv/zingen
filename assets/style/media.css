@@ -1,0 +1,23 @@
+@media (width >= 80em) {
+
+:root {
+    /*TAMANHO DAS FONTES*/
+    --fs-lg: 2rem;
+    --fs-xl: 3rem;
+    --fs-xxl: 4rem;
+
+    --max-width: 1280px;
+    --px-lg: 2rem;
+
+    --py-base: 1. 5rem;
+    --py-lg: 2.5rem;
+    --py-xl: 5rem;
+    }
+
+    .even-columns {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+
+}

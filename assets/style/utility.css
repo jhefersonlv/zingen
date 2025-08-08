@@ -1,0 +1,72 @@
+.container {
+    border: solid purple;
+    width: min(var(--max-width), 100% - var(--px-lg) * 2);
+    margin-inline: auto;
+}
+
+.py-base {
+    padding-block: var(--py-base);
+}
+
+.py-lg {
+    padding-block: var(--py-lg);
+}
+
+.py-xl {
+    padding-block: var(--py-xl);
+}
+
+.even-columns {
+    display: grid;
+    gap: 1rem;
+}
+
+.btn {
+    --btn-bg-color: var(--txt-color-primary);
+    --btn-color: var(--bg-color);
+    font: var(--fw-md) var(--fs-base)/1.5rem var(--ff-sans);
+    border: 0;
+    width: fit-content;
+    border-radius: .5rem;
+    background: var(--btn-bg-color);
+    color: var(--btn-color);
+    cursor: pointer;
+}
+
+.btn:hover {
+    --btn-bg-color: var(--brand-gradient);
+}
+
+.btn.secondary {
+    border-radius: .5rem; /* garante cantos arredondados */
+    border: 2px solid var(--btn-bg-color);
+    color: var(--btn-bg-color);
+    background: transparent;
+}
+
+.btn.secondary:hover {
+   background: transparent;
+    border: 2px solid transparent;
+    border-radius: .5rem; /* reaplica no hover */
+    border-image: var(--brand-gradient) 1;
+    background-image: var(--brand-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn-sm {
+    padding: .5rem 1rem;
+    font-size: var(--fs-sm);
+}
+
+.btn-md {
+    padding: .75rem 1.5rem;
+    font-size: var(--fs-base);
+}
+
+.btn-lg {
+    padding: 1rem 2rem;
+    font-size: 1.125rem;
+}
+
