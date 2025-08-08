@@ -47,6 +47,14 @@
     justify-content: space-between;
 }
 
+.mobile-only {    
+    img {
+        max-width: 19.5rem;
+        max-height: 20rem;
+        
+    }
+}
+
 .desktop-only {
     display: var(--display-initial)
 }

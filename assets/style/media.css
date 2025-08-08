@@ -20,6 +20,10 @@
     --display-initial: initial;
     }
     
+    .mobile-only {
+        display: none;
+    }
+
     .desktop-only {
         display: var(--display-initial);
     }
@@ -32,5 +36,6 @@
     section.hero {
         padding: 5rem 10.25rem 14.9375rem;
     }
+
 
 }
