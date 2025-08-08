@@ -39,7 +39,10 @@
     --px-lg: 1.5rem;
     --py-base: 1rem;
     --py-lg: 1.5rem;
-    --py-xl: 3rem;
+    --py-xl: 2rem;
+    --py-xxl: 3rem;
+
+    --display-initial: none;
 
 }
 
@@ -80,6 +83,10 @@ a {
 }
 
 ul[role="list"] {
+    list-style: none;
+}
+
+ul {
     list-style: none;
 }
 

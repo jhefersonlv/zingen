@@ -1,7 +1,54 @@
+#logo {
+    font-family: "Paytone One", sans-serif;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .container {
-    border: solid purple;
     width: min(var(--max-width), 100% - var(--px-lg) * 2);
     margin-inline: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-auto-flow-col {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.gap-24 {
+    gap: 1.5rem;
+}
+
+.gap-16 {
+    gap: 1rem;
+}
+
+.grid-align-items-center {
+    display: grid;
+    align-items: center;
+}
+
+.justify-item-text-content-center {
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.desktop-only {
+    display: var(--display-initial)
 }
 
 .py-base {
@@ -12,8 +59,12 @@
     padding-block: var(--py-lg);
 }
 
-.py-xl {
+.py-xl{
     padding-block: var(--py-xl);
+}
+
+.py-xxl {
+    padding-block: var(--py-xxl);
 }
 
 .even-columns {
@@ -70,3 +121,14 @@
     font-size: 1.125rem;
 }
 
+.menu-item {
+    font-size: var(--fs-base);
+    color: var(--txt-color-secondary);
+}
+
+.menu-item:hover {
+    background: var(--brand-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

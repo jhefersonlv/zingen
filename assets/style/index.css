@@ -1,0 +1,9 @@
+h2.hero{
+    font-size: var(--fs-lg);
+    color: var(--txt-color-secondary);
+    font-weight: var(--fw-md);
+}
+
+section.hero{
+    background: url(../background.svg) no-repeat bottom center/cover;
+}
