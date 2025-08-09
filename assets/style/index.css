@@ -4,6 +4,12 @@ h2.hero{
     font-weight: var(--fw-md);
 }
 
+section.about{
+    background-color: var(--surface-color) ;
+}
+
 section.hero{
-    background: url(../background.svg) no-repeat bottom center/cover;
+        background-image: url(../background.svg);
+        background-repeat: no-repeat;
+        background-position: bottom;
 }

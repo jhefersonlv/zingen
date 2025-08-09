@@ -34,8 +34,16 @@
     }
 
     section.hero {
-        padding: 5rem 10.25rem 14.9375rem;
+        padding: 5rem 10.25rem 13rem;
+        background-image: url(../background.svg);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: cover;
     }
 
+    .desktop-only .img-mockup {
+        width: 34rem;
+        height: 34.875rem;
+    }
 
 }

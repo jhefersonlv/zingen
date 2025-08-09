@@ -24,6 +24,10 @@
     grid-auto-flow: column;
 }
 
+.gap-8 {
+    gap: .5rem;
+}
+
 .gap-24 {
     gap: 1.5rem;
 }
@@ -31,6 +35,11 @@
 .gap-16 {
     gap: 1rem;
 }
+
+.gap-32 {
+    gap: 2rem;
+}
+
 
 .grid-align-items-center {
     display: grid;
@@ -47,12 +56,9 @@
     justify-content: space-between;
 }
 
-.mobile-only {    
-    img {
-        max-width: 19.5rem;
-        max-height: 20rem;
-        
-    }
+.mobile-only .img-mockup {    
+        width: 19.5rem;
+        height: 20rem;
 }
 
 .desktop-only {
