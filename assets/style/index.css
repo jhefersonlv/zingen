@@ -13,3 +13,9 @@ section.hero{
         background-repeat: no-repeat;
         background-position: bottom;
 }
+
+/* Feature Section */
+
+#feature {
+    background-color: var(--bg-color);
+}

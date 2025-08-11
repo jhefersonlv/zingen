@@ -46,4 +46,51 @@
         height: 34.875rem;
     }
 
+    .feature {
+        grid-template-areas: 
+        "A B B C"
+        "D D E E";
+
+        & .wrapp {
+            height: 25rem;
+            overflow: hidden;
+
+            & img.mockup {
+                width: 15rem;
+                transform: translateY(-9rem);
+                filter: drop-shadow(1rem 1rem 1rem black);
+            }
+            
+            & img.mockup-bottom {
+                width: 15rem;
+                transform: translateY(.95rem);
+                filter: drop-shadow(1rem 1rem 1rem black);
+            }
+        }
+
+            & .wrapp.A{
+                grid-area: A;
+            }
+
+            
+            & .wrapp.B{
+                grid-area: B;
+            }
+
+            
+            & .wrapp.C{
+                grid-area: C;
+            }
+
+            
+            & .wrapp.D{
+                grid-area: D;
+            }
+
+            
+            & .wrapp.E{
+                grid-area: E;
+            }
+    }
+
 }

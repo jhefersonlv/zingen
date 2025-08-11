@@ -146,3 +146,11 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.wrapp {
+    padding: 1.5rem;
+    gap: 1rem;
+    background-color: var(--surface-color);
+    border-radius: 1.5rem;
+    position: relative;
+}
