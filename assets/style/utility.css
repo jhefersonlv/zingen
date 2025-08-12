@@ -154,3 +154,9 @@
     border-radius: 1.5rem;
     position: relative;
 }
+
+.separator {
+    height: 1px;
+    margin-block: 2rem;
+    background: radial-gradient(var(--txt-color-secondary), var(--surface-color) 70%);
+}

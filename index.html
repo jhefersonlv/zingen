@@ -121,25 +121,26 @@
         </div>
     </section>
 
-    <section id="pricing" class="container py-xxl">
-        <div class="grid gap-32">
+    <section id="pricing" class="grid gap-32 container py-xxl">
+       
             <div class="justify-item-text-content-center">
                 <span>PLANOS E PREÇOS</span>
                 <h2>Assine e tenha acesso ilimitado a todas as funcionalidades</h2>
                 
             </div>
-
+            <div class="gap-32 grid-align-items-center">
                 <div class="wrapp">
-                    <div class="grid gap-24">
+                    <div class="grid gap-16">
                         <div>
                             <h3>Básico</h3>
                             <p>Baixe o app e comece a cantar agora mesmo!</p>
                         </div>
-                        <h2>Grátis</h2>
+                        <zin-pricing>Grátis</zin-pricing>
                         <a class="btn secondary btn-md" href="#">Baixar agora</a>
                     </div>
+                    <div class="separator"></div>
                     <div>
-                        <ul>
+                        <ul class="grid gap-16">
                             <li>Com anúncios</li>
                             <li>Até 5 músicas por dia</li>
                             <li>Cante apenas as músicas disponiveis no plano gratuito</li>
@@ -147,22 +148,44 @@
                     </div>
                 </div>
                 
-                <div class="wrapp">
-                    <div>
-                        <h3>Premium</h3>
-                        <p>Ideal para quem já cansou de passar vergonha no Karaokê</p>
-                        <h2>R$ 24,90</h2><p>/mês</p>
-                        <a class="btn secondary btn-md" href="#">Experimente de graça</a>
-                    </div>
-                    <div>
-                        <ul>
-                            <li>Com anúncios</li>
-                            <li>Até 5 músicas por dia</li>
-                            <li>Cante apenas as músicas disponiveis no plano gratuito</li>
-                        </ul>
+                <div class="wrapp recomended">
+                    <div class="recomended-bg py-xxl">
+                        <div class="grid gap-24">
+                            <span class="premium">1 mês gratis</span>
+                            <h3>Premium</h3>
+                            <p>Ideal para quem já cansou de passar vergonha no Karaokê</p>
+                            <div><zin-pricing>R$24,90</zin-pricing><small>/mês</small></div>
+                            <a class="btn secondary btn-md" href="#">Experimente de graça</a>
+                        </div>
+                        <div class="separator"></div>
+                        <div>
+                            <ul class="grid gap-16">
+                                <li>Sem interrupçoes de anúncios</li>
+                                <li>Cante quantas músicas quiser</li>
+                                <li>Cante todas as músicas da biblioteca</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-        </div>
+
+                 <div class="wrapp">
+                    <div class="grid gap-16">
+                        <h3>Familia</h3>
+                        <p>Para aquelas famílias que adoram se reunir pra cantar</p>
+                        <div><zin-pricing>R$21,90</zin-pricing><small>/mês por pessoa</small></div>
+                        <a class="btn secondary btn-md" href="#">Assinar agora</a>
+                    </div>
+                    <div class="separator"></div>
+                    <div>
+                        <ul class="grid gap-16">
+                            <li>Sem interrupçoes de anúncios</li>
+                            <li>Cante quantas músicas quiser</li>
+                            <li>Cante todas as músicas da biblioteca</li>
+                        </ul>
+                        <p>Minimo de 4 pessoas no plano familia</p>
+                    </div>
+                </div>
+            </div>
     </section>
 </body>
 </html>

@@ -19,3 +19,78 @@ section.hero{
 #feature {
     background-color: var(--bg-color);
 }
+
+/* PRICING SECTION */
+
+#pricing {
+    
+    & li {
+        position: relative;
+        margin-left: 2rem;
+        
+    }
+
+    & li::before{
+        content: url(../icons/Check.svg);
+        
+        position: absolute;
+        left: -2rem;
+        top: 50%;
+        transform: translateY(-50%);
+        
+
+    }
+
+    & a.btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    & zin-pricing {
+        display: block;
+        font-size: 2rem;
+        font-weight: bold;
+        color: var(--txt-color-primary);
+
+        & small {
+            font-size: 1rem;
+            font-weight: 400;
+            color: var(--txt-color-secondary);
+        }
+    }
+
+    & .wrapp {
+        position: relative;
+
+        & span.premium{
+            position: absolute;
+            left: 0;
+            top: 0;
+            padding: 0.75rem 2rem;
+            border-top-left-radius: 1.5rem;
+            border-bottom-right-radius: 1.5rem;
+            background: var(--brand-gradient);
+            font-weight: 600;
+            color: var(--bg-color);
+        }
+
+        & p {
+        margin-top: 1.5rem 
+        }
+    }
+
+    & .recomended {
+        position: relative;
+        
+    }
+
+    & .recomended-bg::before {
+            content: "";
+            background: var(--brand-gradient);
+            position: absolute;
+            inset: 0;
+            z-index: -1;
+            border-radius: 1.5rem; 
+            transform: scale(1.01);
+    }
+}
