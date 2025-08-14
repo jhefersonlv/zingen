@@ -96,3 +96,21 @@ span {
    text-transform: uppercase;
    font-size: var(--fs-sm); 
 }
+
+banner-sm {
+    display: block;
+    color: var(--txt-color-secondary);
+    font-size: .75rem;
+    margin: 0;
+    padding: 0;
+    transform: translateY(.5rem);
+}
+
+banner-lg {
+    display: block;
+    color: var(--txt-color-primary);
+    font-size: 1.25rem;
+    margin: 0;
+    padding: 0;
+    transform: translateY(-.1rem);
+} 

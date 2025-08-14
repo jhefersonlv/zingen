@@ -94,3 +94,39 @@ section.hero{
             transform: scale(1.01);
     }
 }
+
+#download {
+
+    .download-section {
+        background-color: var(--surface-color);
+        border-radius: 1.5rem;
+        position: relative;
+        padding-top: 3rem;
+        padding-bottom: 240px;
+    }
+
+    .store{
+        justify-content: start;
+    }
+
+    .store-btn {
+        background-color: var(--bg-color);
+        width: 11.125rem;
+        height: 3.5rem;
+        border-radius: 8px;
+        border: 1px solid var(--txt-color-secondary);
+        padding: .5rem .75rem;
+        display: flex;
+        place-items: center;
+        gap: .5rem;
+        align-content: center;
+    }
+
+    .listen-music {
+        position: absolute;
+        width: 14.875rem;
+        height: 20rem;
+        right: -50px;
+        bottom: 0;
+    }
+}
