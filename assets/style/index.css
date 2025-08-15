@@ -101,6 +101,7 @@ section.hero{
         background-color: var(--surface-color);
         border-radius: 1.5rem;
         position: relative;
+        width: 100%;
         padding-top: 3rem;
         padding-bottom: 240px;
     }
@@ -124,9 +125,19 @@ section.hero{
 
     .listen-music {
         position: absolute;
-        width: 14.875rem;
-        height: 20rem;
+        width: var(--img-size-x);
+        height: var(--img-size-y);
         right: -50px;
         bottom: 0;
+    }
+}
+
+footer {
+    padding-top: var(--py-xxl);
+    padding-bottom: var(--py-lg);
+    padding-inline: var(--px-lg);
+
+    .social-media {
+        padding-top: 3rem;
     }
 }

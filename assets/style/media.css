@@ -16,6 +16,8 @@
     --py-lg: 2.5rem;
     --py-xl: 3rem;
     --py-xxl: 5rem;
+    --img-size-x: 29.13rem;
+    --img-size-y: 40rem;
 
     --display-initial: initial;
     }
@@ -98,5 +100,40 @@
         & div:nth-child(2){
         grid-auto-flow: column;
        }
+    }
+
+    #download {
+       
+        & div.download-section {
+            padding-bottom: 8.75rem;
+            padding-top: 8.75rem;
+            
+        }
+
+        & .download-section > div:first-child {
+            width: 40rem;
+        }
+
+    .store{
+        justify-content: start;
+        grid-auto-flow: column;
+    }
+    }
+
+    footer {
+        
+
+        & > :first-child {
+            grid-auto-flow: column;
+
+            & > div:nth-child(2) {    
+                grid-auto-flow: column;
+            }
+        }
+
+        .social-media {
+            display: flex;
+            justify-content: space-between;
+        }
     }
 }

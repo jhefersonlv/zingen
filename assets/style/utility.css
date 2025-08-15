@@ -28,6 +28,10 @@
     gap: .5rem;
 }
 
+.gap-20 {
+    gap: 1.25rem;
+}
+
 .gap-24 {
     gap: 1.5rem;
 }
@@ -38,6 +42,14 @@
 
 .gap-32 {
     gap: 2rem;
+}
+
+.gap-48 {
+    gap: 3rem;
+}
+
+.gap-64 {
+    gap: 4rem;
 }
 
 
